@@ -1,0 +1,4 @@
+# Fully pinned environment for reproducible Docker builds.
+# Generated from a clean python:3.11-slim-bookworm image with
+#   pip install --index-url https://pypi.org/simple openjiuwen==0.1.19
+-r requirements.lock

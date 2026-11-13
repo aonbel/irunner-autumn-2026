@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+logs/
+*.log
+traces/*.jsonl
+!traces/example_trace.jsonl
+*.tmp
+.DS_Store
+
+__MACOSX/
+.DS_Store
